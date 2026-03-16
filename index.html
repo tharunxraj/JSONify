@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JSONify - JSON Formatter Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- navigation bar -->
+  <div class="topbar">
+    <h1>JSONify</h1>
+    <div class="nav-links">
+      <a href="#tool">Tool</a>
+      <a href="#features">Features</a>
+      <a href="#howtouse">How To Use</a>
+    </div>
+    <button id="themeBtn">Dark Mode</button>
+  </div>
+
+  <!-- hero section -->
+  <div class="hero" id="tool">
+    <div class="hero-left">
+      <h2>Format your JSON</h2>
+      <h2>instantly and easily</h2>
+      <p>A simple tool for developers to clean up and format JSON data in seconds.</p>
+      <div class="hero-badges">
+        <span>Free</span>
+        <span>No Login</span>
+        <span>Works Offline</span>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img src="https://cdn-icons-png.flaticon.com/512/2092/2092693.png" alt="json icon">
+    </div>
+  </div>
+
+  <!-- main tool section -->
+  <div class="tool-area" id="tool">
+
+    <h2 class="tool-title">Try it yourself</h2>
+
+    <div class="main">
+
+      <!-- input box -->
+      <div class="box">
+        <div class="box-top">
+          <h3>Input JSON</h3>
+          <button id="clearBtn">Clear</button>
+        </div>
+        <textarea id="inputBox" placeholder="Paste your JSON here..."></textarea>
+      </div>
+
+      <!-- output box -->
+      <div class="box">
+        <div class="box-top">
+          <h3>Output JSON</h3>
+          <button id="copyBtn">Copy</button>
+        </div>
+        <pre id="outputBox">Your formatted JSON will appear here...</pre>
+      </div>
+
+    </div>
+
+    <!-- format and minify buttons -->
+    <div class="buttons">
+      <button id="formatBtn">Format JSON</button>
+      <button id="minifyBtn">Minify JSON</button>
+    </div>
+
+    <!-- error message -->
+    <p id="errorMsg"></p>
+
+  </div>
+
+  <!-- features section -->
+  <div class="features" id="features">
+
+    <h2>Why use JSONify?</h2>
+    <p class="section-sub">Built for developers who work with APIs daily</p>
+
+    <div class="feature-cards">
+
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="format">
+        <h3>Auto Format</h3>
+        <p>Cleans up messy JSON into a readable structure</p>
+      </div>
+
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="validate">
+        <h3>Validate JSON</h3>
+        <p>Shows an error if your JSON has any mistakes</p>
+      </div>
+
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2921/2921222.png" alt="minify">
+        <h3>Minify JSON</h3>
+        <p>Compresses JSON into one line for faster data transfer</p>
+      </div>
+
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3652/3652191.png" alt="dark mode">
+        <h3>Dark Mode</h3>
+        <p>Switch to dark mode for comfortable night coding</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- how to use section -->
+  <div class="howtouse" id="howtouse">
+
+    <h2>How to use JSONify?</h2>
+    <p class="section-sub">3 simple steps</p>
+
+    <div class="steps">
+
+      <div class="step">
+        <div class="step-number">1</div>
+        <h3>Paste your JSON</h3>
+        <p>Copy your JSON from anywhere and paste it in the input box</p>
+      </div>
+
+      <div class="step">
+        <div class="step-number">2</div>
+        <h3>Click Format</h3>
+        <p>Click the Format JSON button to clean it up instantly</p>
+      </div>
+
+      <div class="step">
+        <div class="step-number">3</div>
+        <h3>Copy and Use</h3>
+        <p>Click Copy and paste your clean JSON wherever you need it</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- footer -->
+  <div class="footer">
+    <p>Built by a Frontend Developer</p>
+    <p>JSONify - Making JSON readable for everyone</p>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
