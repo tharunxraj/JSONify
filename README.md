@@ -27,7 +27,7 @@ CSS and JavaScript — no frameworks, no tutorials, just me figuring it out.
 
 ## Live Demo 
 
-(https://jsonify-dev-tool.netlify.app/)
+https://jsonify-dev-tool.netlify.app/
 
 ## What I Learned
 
@@ -39,5 +39,5 @@ CSS and JavaScript — no frameworks, no tutorials, just me figuring it out.
 
 ## Author
 
-Built by [Tharun raj M] — Final Year Engineering Student  
+Built by Tharun raj M — Final Year Engineering Student  
 GitHub: https://github.com/tharunxraj
